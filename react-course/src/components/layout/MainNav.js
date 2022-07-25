@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
 
+import classes from './MainNav.module.css';
+
 
 function MainNav()
 {
-    return <header>
-        <div>React meetup</div>
+    return( 
+    <header className={classes.header}>
+        <div className={classes.logo}>React meetup</div>
         <nav>
             <ul>
                 <li>
@@ -20,6 +23,7 @@ function MainNav()
         </nav>
 
     </header>
+    )
 }
 
 export default MainNav;
