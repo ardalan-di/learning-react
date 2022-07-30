@@ -1,10 +1,5 @@
 import {Route, Switch} from 'react-router-dom';
 
-import AllMeetup from './pages/AllMeetup';
-import FavoritesPage from './pages/Favorites';
-import NewMeetupPage from './pages/NewMeetup';
-import Layout from './components/layout/Layout';
-
 function App() {
   return (
     
